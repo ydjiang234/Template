@@ -1,0 +1,2 @@
+# Template
+Latex_Template
