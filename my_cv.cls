@@ -35,18 +35,21 @@
 \renewcommand{\section}[1]{
     \vspace{12pt}
     \large\noindent\textbf{\textsc{#1}}\\
-    \fontsize{4pt}{4pt}\selectfont\rule{\linewidth}{1.5pt}\par\vspace{10pt}\normalsize
+    \fontsize{4pt}{4pt}\selectfont\rule{\linewidth}{1.5pt}\par\vspace{2pt}\normalsize
 }
 %SubSection
 \renewcommand{\subsection}[1]{
-    \large\textsc{#1}\par
-    \fontsize{4pt}{4pt}\selectfont\hrulefill\par\vspace{10pt}\normalsize
+    \noindent\hspace{12pt}\large\textsc{#1}\par
+    \fontsize{4pt}{4pt}\selectfont\hrulefill\par\vspace{2pt}\normalsize
 }
 %Table of experience
 \newcommand{\period}[2]{
     \normalsize
-    \begin{tabular}{p{45pt} |  p{370pt}}
-    #1 & #2
+    \noindent\hspace{12pt} #1 
+    \par\fontsize{4pt}{4pt}\selectfont\hrulefill\par\vspace{2pt}\normalsize
+    \noindent\hspace{24pt} 
+    \begin{tabular}{| p{420pt} }
+     #2
     \end{tabular}
     \par\vspace{7pt}
 }
