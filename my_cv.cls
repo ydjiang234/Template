@@ -25,9 +25,10 @@
 \setlength{\parindent}{14pt}
 %\setlength{\parskip}{12pt}
 %My name
-\newcommand{\myName}[2]{
+\newcommand{\myName}[3]{
     \begin{center}
-        \Large\textbf{\textsc{#1 #2}}
+        \Large\textbf{\textsc{#1 #2}} \par\normalsize
+        #3
     \end{center}
     \par
 }
