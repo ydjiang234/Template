@@ -46,7 +46,7 @@
 %Table of experience
 \newcommand{\period}[2]{
     \normalsize
-    \noindent\hspace{12pt} #1 
+    \noindent\hspace{12pt}\textbf{#1} 
     \par\fontsize{4pt}{4pt}\selectfont\hrulefill\par\vspace{2pt}\normalsize
     \noindent\hspace{24pt} 
     \begin{tabular}{| p{420pt} }
