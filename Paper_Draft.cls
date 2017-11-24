@@ -1,7 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \LoadClass{article}
 \usepackage{geometry}
-\usepackage{titlesec}
 
 %Page layout
 \geometry{a4paper, top=1in, bottom=1in, left=1in, right=1in}
