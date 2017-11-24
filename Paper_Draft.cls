@@ -13,4 +13,3 @@
 \setlength{\parindent}{0pt}
 
 %Heading
-\titleformat{\section}[display]{\bfseries\Large\itshape}{Story No. \ \thechapter}{0.5ex}
