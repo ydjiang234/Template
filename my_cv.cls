@@ -1,7 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{my_cv}[6/6/2015 custom CV class]
 \LoadClass[a4paper]{article}
-\usepackage{times}
 \usepackage{hyperref}
 
 %Page margins
