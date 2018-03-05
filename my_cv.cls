@@ -3,20 +3,8 @@
 \LoadClass[a4paper]{article}
 \usepackage{hyperref}
 
-%Page margins
-\setlength{\hoffset}{0cm}
-\setlength{\voffset}{0cm}
-%Header
-\setlength{\topmargin}{0pt}
-\setlength{\headheight}{0pt}
-\setlength{\headsep}{0pt}
-%Footer
-\setlength{\footskip}{0pt}
-%Margin notes
-\setlength{\oddsidemargin}{0pt}
-%Body size
-\setlength{\textheight}{698pt}
-\setlength{\textwidth}{451pt}
+\usepackage[a4paper]{geometry}
+\geometry{margin=1in}
 
 %Page number
 \pagenumbering{gobble}
@@ -26,8 +14,8 @@
 %My name
 \newcommand{\myName}[3]{
     \begin{center}
-        \Large\textbf{\textsc{#1 #2}} \par\normalsize
-        #3
+        \noindent\Large\textbf{\textsc{#1 #2}} \par\normalsize
+        \noindent#3
     \end{center}
     \par
 }
@@ -56,7 +44,13 @@
 
 %Bibitem1
 \newcommand{\bitem}[1]{
-    \hangindent=42pt
+    \hangindent=32pt
     #1
     \vspace{7pt}
+}
+%Personal Data
+\newcommand{\Person}[2]{
+	\noindent\Large\textbf{\textsc{#1}}\\
+	\fontsize{4pt}{4pt}\selectfont\rule{\linewidth}{1.5pt}\par\vspace{2pt}\normalsize
+	#2
 }
